@@ -28,3 +28,8 @@ output "sql_server_version" {
   description = "Version the Azure SQL Database created."
   value       = azurerm_sql_server.server.version
 }
+
+output "sql_server_id" {
+  description = "The Microsoft SQL Server ID."
+  value       = azurerm_sql_server.server.id
+}
